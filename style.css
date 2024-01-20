@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#v-bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -6;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 20px 0px 0px 440px;
+  justify-content: center;
+  align-items: center;
+}
+
+#C_Frame {
+  width: 560px;
+  height: 740px;
+  border: 2px solid #7109a9;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgb(7, 9, 9);
+}
+.input_Filed {
+  background-color: rgb(10, 62, 66);
+  border-radius: 4px;
+}
+
+input {
+  width: 520px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 4px;
+  text-align: right;
+  font-size: 32px;
+  color: #21dee1;
+  outline: none;
+  border: none;
+}
+.user-Input {
+  color: #ff59c2;
+  font-size: 34px;
+}
+
+.calc_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-c {
+  width: 120px;
+  height: 80px;
+  border-radius: 4px;
+  background-color: rgba(49, 40, 68, 0.933);
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.btn-c:hover {
+  background-color: #2f1729;
+}
+
+.btn-c:hover i {
+  color: #e0dfdc;
+}
+
+.row_1-btn {
+  display: flex;
+}
+.row_2-btn {
+  display: flex;
+}
+.row_3-btn {
+  display: flex;
+}
+.row_4-btn {
+  display: flex;
+}
+.row_5-btn {
+  display: flex;
+}
+
+i {
+  color: rgb(12, 216, 131);
+  font-size: 54px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  /* background-color: rgb(12, 216, 131); */
+  color: rgb(12, 216, 131);
+}
+
+#switch {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background-color: #4d386a;
+  margin: 10px 10px 10px 250px;
+  border-radius: 6px;
+}
+
+.light {
+  width: 50px;
+  height: 100%;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 2px;
+}
+.dark {
+  width: 50px;
+  height: 100%;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 2px;
+}
+
+#switch .uil-sun {
+  font-size: 26px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+#switch .uil-moon {
+  font-size: 26px;
+  margin-left: 10px;
+  color: #22ee;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
