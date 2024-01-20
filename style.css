@@ -163,3 +163,24 @@ img {
   background-color: #fff;
   color: #333;
 }
+
+
+@media screen and (max-width: 600px) {
+  section {
+    margin: 100px 80px 40px 40px;
+  }
+  #C_Frame {
+    width: 480px;
+    height: 780px;
+  }
+
+  .btn-c {
+    width: 98px;
+    height: 85px;
+  }
+
+  #switch {
+    margin: 10px 10px 10px 190px;
+    border-radius: 6px;
+  }
+}
